@@ -2278,18 +2278,47 @@
     }
 
     /* ============================================================ FOOTER */
-    footer {
+    .site-footer {
       border-top: 1px solid var(--line);
-      padding: 70px 0 34px;
-      background: var(--bg)
+      padding: 78px 0 30px;
+      background: linear-gradient(180deg, var(--bg) 0%, rgba(46, 230, 195, .035) 100%)
+    }
+
+    .foot-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.8fr) minmax(120px, .6fr) minmax(150px, .7fr);
+      gap: 48px;
+      align-items: start
+    }
+
+    .foot-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      font-family: var(--disp);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: -.03em
+    }
+
+    .foot-logo small {
+      display: block;
+      margin-top: 2px;
+      color: var(--faint);
+      font-family: var(--mono);
+      font-size: .57rem;
+      font-weight: 500;
+      letter-spacing: .11em
     }
 
     .foot-tag {
       font-family: var(--disp);
       font-weight: 700;
-      font-size: clamp(1.4rem, 3.4vw, 2.3rem);
+      font-size: clamp(1.35rem, 2.7vw, 2.05rem);
       line-height: 1.25;
-      max-width: 820px
+      max-width: 610px;
+      margin-top: 24px
     }
 
     .foot-tag em {
@@ -2297,12 +2326,53 @@
       color: var(--teal)
     }
 
+    .foot-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 24px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid var(--teal-line);
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: .78rem;
+      transition: color .25s var(--ease), gap .25s var(--ease)
+    }
+
+    .foot-email:hover { color: var(--teal); gap: 13px }
+
+    .foot-heading {
+      margin-bottom: 17px;
+      color: var(--faint);
+      font-family: var(--mono);
+      font-size: .67rem;
+      letter-spacing: .12em;
+      text-transform: uppercase
+    }
+
+    .foot-links { display: grid; gap: 12px }
+
+    .foot-links a {
+      width: fit-content;
+      color: var(--muted);
+      font-size: .9rem;
+      transition: color .25s var(--ease), transform .25s var(--ease)
+    }
+
+    .foot-links a span { color: var(--teal); margin-left: 3px }
+    .foot-links a:hover { color: var(--text); transform: translateX(4px) }
+
     .foot-path {
       font-family: var(--mono);
       font-size: .74rem;
       color: var(--faint);
-      margin-top: 20px;
-      letter-spacing: .08em
+      margin-top: 56px;
+      padding: 17px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      letter-spacing: .08em;
+      white-space: nowrap;
+      overflow-x: auto
     }
 
     .foot-path b {
@@ -2311,9 +2381,9 @@
     }
 
     .foot-bottom {
-      margin-top: 54px;
-      padding-top: 26px;
-      border-top: 1px solid var(--line);
+      margin-top: 24px;
+      padding-top: 0;
+      border-top: none;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -2346,6 +2416,7 @@
 
     /* ============================================================ RESPONSIVE */
     @media(max-width:1020px) {
+      .foot-grid { grid-template-columns: 1.4fr 1fr 1fr; gap: 32px }
       .nav-links {
         display: none
       }
@@ -2429,6 +2500,17 @@
     }
 
     @media(max-width:640px) {
+      .site-footer { padding-top: 56px }
+
+      .foot-grid { grid-template-columns: 1fr 1fr; gap: 38px 24px }
+
+      .foot-intro { grid-column: 1 / -1 }
+
+      .foot-path { margin-top: 40px; font-size: .66rem }
+
+      .foot-bottom { align-items: flex-end }
+
+      .foot-bottom p { max-width: calc(100% - 68px) }
       .skills-grid {
         grid-template-columns: 1fr
       }
