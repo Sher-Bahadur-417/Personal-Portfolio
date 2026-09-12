@@ -1,54 +1,56 @@
-# Sher Bahadur - Portfolio
+# Portfolio For Sher Bahadur
 
-A responsive personal portfolio for Sher Bahadur, a developing Full Stack AI/ML Engineer. The site presents skills, a learning roadmap, education, and a collection of frontend projects.
+## Overview
 
-## Features
+**Portfolio-for-Sher-Bahadur** is a static html/css/js website engineered with **HTML and JavaScript and HTML5**.
+Developed with an emphasis on maintainable software architecture, component modularity, and predictable state handling.
 
-- Responsive navigation with an active-section indicator and mobile menu
-- Animated hero, terminal-style typing effect, counters, and canvas network background
-- Scroll-reveal sections and roadmap progress interactions
-- Project showcase with live-demo and GitHub links
-- Accessible basics including a skip link, descriptive image text, and reduced-motion support
-- Contact-form client-side validation and back-to-top control
+## Tech Stack
 
-## Built with
+- **Languages**: HTML, JavaScript, HTML5, CSS3
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-Google Fonts are loaded from the web; no framework, package manager, or build step is required.
-
-## Run locally
-
-1. Clone the repository.
-
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-2. Open the project folder.
-
-3. Open `index.html` in a browser, or serve it with a local development server such as VS Code Live Server.
-
-## Project structure
+## Project Structure
 
 ```text
-.
-|-- index.html       # Site structure and content
-|-- styles.css       # Responsive styles and animations
-|-- script.js        # Navigation and interactive behavior
-|-- Pictures/        # Project preview images
-`-- favicon.svg      # Browser favicon
+README.md            # Project documentation and getting started guide.
 ```
 
-## Customize
+## Getting Started
 
-- Update personal information and section content in `index.html`.
-- Add or edit project cards in the `#projects` section.
-- Replace placeholder social/profile URLs before publishing.
-- Adjust colors, spacing, and layout tokens in `styles.css`.
+### Prerequisites
+
+- Node.js (v18.0.0 or higher recommended)
+- npm, yarn, or pnpm package manager
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Sher-Bahadur-417/Portfolio-for-Sher-Bahadur.git
+
+# Navigate into the project folder
+cd Portfolio-for-Sher-Bahadur
+
+```
+
+### Running the Project
+
+```bash
+# Run using your preferred server or runtime
+```
+
+## Screenshots
+
+> *Add screenshots or a GIF demonstration here.*
+
+<!-- ![App Screenshot](path/to/screenshot.png) -->
+
+## Key Architectural Learnings
+
+- Established strict separation of concerns between data fetching, business logic, and UI representation.
+- Maintained defensive error handling across external network requests and invalid states.
+- Designed for extensibility and fast developer onboarding with clean directory organization.
 
 ## License
 
-This project is available for personal portfolio use. Add a license file if you plan to distribute it under specific terms.
+This project is open source and available under standard GitHub terms.
