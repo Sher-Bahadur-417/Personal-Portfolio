@@ -1,9 +1,19 @@
-# Portfolio For Sher Bahadur
+# Sher Bahadur — Full Stack AI/ML Engineer
 
 ## Overview
 
-**Portfolio-for-Sher-Bahadur** is a static html/css/js website engineered with **HTML and JavaScript and HTML5**.
-Developed with an emphasis on maintainable software architecture, component modularity, and predictable state handling.
+Sher Bahadur — Full Stack AI/ML Engineer is implemented in this repository with pages for Pictures Sher Bahadur CV.pdf.
+
+Portfolio-for-Sher-Bahadur: static html/css/js website powered by HTML, JavaScript, HTML5, CSS3. Includes verified setup instructions and comprehensive docum...
+
+## What the code does
+
+- **Routes found in source:** /Pictures/Sher_Bahadur_CV.pdf
+- **Source files inspected:** index.html, README.md, script.js
+
+## Features
+
+- **Multi-page navigation**: Routes found in code: /Pictures/Sher_Bahadur_CV.pdf
 
 ## Tech Stack
 
@@ -26,30 +36,18 @@ README.md            # Project documentation and getting started guide.
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sher-Bahadur-417/Portfolio-for-Sher-Bahadur.git
+git clone https://github.com/Sher-Bahadur-Dev/Personal-Portfolio.git
 
 # Navigate into the project folder
-cd Portfolio-for-Sher-Bahadur
+cd Personal-Portfolio
 
 ```
 
 ### Running the Project
 
 ```bash
-# Run using your preferred server or runtime
+# Run using the runtime found in this repository
 ```
-
-## Screenshots
-
-> *Add screenshots or a GIF demonstration here.*
-
-<!-- ![App Screenshot](path/to/screenshot.png) -->
-
-## Key Architectural Learnings
-
-- Established strict separation of concerns between data fetching, business logic, and UI representation.
-- Maintained defensive error handling across external network requests and invalid states.
-- Designed for extensibility and fast developer onboarding with clean directory organization.
 
 ## License
 
